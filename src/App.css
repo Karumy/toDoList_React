@@ -1,38 +1,70 @@
 .App {
   text-align: center;
+  font-family: 'Roboto', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.row{
+	width: 50%;
+	display: flex;
+	border-style: solid;
+	border-color: #14284a;
+	padding-block: initial;
+  padding: 15px; 
+	background-color: #b1c4e6;
+	border-radius: 25px;
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.columnCompleteIcon{
+width: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.columnTask{
+  width: 80%;
+}
+
+.columDeleteIcon{
+  width: 10%;
+}
+
+.listContainer{
+  display: grid;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 30px
 }
 
-.App-link {
-  color: #61dafb;
+.taskInput{
+  width: 30%;
+  height: 50px;
+  margin: 0 auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.formTask{
+  display: grid;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.saveButton{
+  height: 20px;
+  width: 250px;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+.labelText{
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+.roboto-black-italic {
+  font-weight: 900;
+  font-style: italic;
+  color: blueviolet;
+}
+
+.alignCenter{
+    display: grid;
+    align-items: center;
 }
