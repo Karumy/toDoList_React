@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.row{
+	width: 50%;
+	display: flex;
+	border-style: solid;
+	border-color: #14284a;
+	padding-block: initial;
+  padding: 15px; 
+	background-color: #b1c4e6;
+	border-radius: 25px;
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+}
+
+.columnCompleteIcon{
+width: 50px;
+}
+
+.columnTask{
+  width: 80%;
+}
+
+.columDeleteIcon{
+  width: 10%;
+}
+
+.listContainer{
+  display: grid;
+  align-items: center;
+  margin-top: 30px
+}
+
+.taskInput{
+  width: 30%;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.formTask{
+  display: grid;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.saveButton{
+  height: 20px;
+  width: 250px;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+.labelText{
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+.roboto-black-italic {
+  font-weight: 900;
+  font-style: italic;
+  color: blueviolet;
+}
+
+.alignCenter{
+    display: grid;
+    align-items: center;
+}
